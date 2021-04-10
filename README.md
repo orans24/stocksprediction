@@ -13,3 +13,9 @@ you can see as example the data set, model and  predction for 04/08/21 that crea
 notes:
 the code predict the next 10 days depanding on 25 last days,to train the model i use the historical data of the stocks since the day it tag to NASDAQ against the movment of 
 russel,nasdaq,djowns and s&p.
+model architecture:
+input layer : lstm 512 units defualt activations and 0.2 dropout.
+hidden layers: 2 lstm layers defualt activiations first one with 256 units and second with 128 both 0.2 dropout.
+output layer: dense layer with 10 units and activation sigmoid.
+compile with loss:mse,optimizer:adam,metrics:mae.
+batch size for fit 32 and 300 epoch 
