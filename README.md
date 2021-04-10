@@ -1,8 +1,11 @@
 # stocksprediction
 on the code you got the option to :
 1. build data set to train the model
+
 2. train the model
+
 3.check model preformence
+
 4.predict the the stocks movment.
 
 to activate the code all you need to do is to insert the ticker of the stocks you would like to predict.
